@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arjun Hazra B | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    <nav>
+        <div class="logo">AH</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><button id="theme-toggle"><i class="fas fa-moon"></i></button></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight gradient-text">Arjun Hazra B</span></h1>
+            <h2><span class="typed-text"></span><span class="cursor">&nbsp;</span></h2>
+            <p class="fade-in-delay">I build efficient software solutions and I am currently mastering the MERN Stack.</p>
+            <div class="hero-btns fade-in-delay">
+                <a href="#projects" class="btn primary-btn">View My Work</a>
+                <a href="#contact" class="btn secondary-btn">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="container reveal">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>
+                    I am a fresher and a 3rd-year BCA student at <strong>KLE S.Nijalingappa College</strong> with a passion for coding. 
+                    With a strong foundation in Java and C, I am currently expanding my skillset by learning the MERN stack.
+                </p>
+                <p>
+                    I hold certifications in <strong>Computer Hardware & Networking</strong> and <strong>Software Testing</strong>. 
+                    I am eager to apply my skills to solve real-world problems.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="container bg-alt reveal">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h3><i class="fas fa-code"></i> Languages</h3>
+                <ul>
+                    <li>Java Full Stack</li>
+                    <li>C Language</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-tools"></i> Tools & Concepts</h3>
+                <ul>
+                    <li>MS Excel</li>
+                    <li>Git & GitHub</li>
+                    <li>Software Testing</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3><i class="fas fa-laptop-code"></i> Learning</h3>
+                <ul>
+                    <li>MERN Stack (MongoDB, Express, React, Node)</li>
+                    <li>Computer Hardware</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="container reveal">
+        <h2 class="section-title">Projects</h2>
+        <div class="projects-grid">
+            
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Student LMS</h3>
+                    <p>A Learning Management System designed to help track student progress and manage course content efficiently.</p>
+                    <p class="tech-stack"><strong>Tech:</strong> Java, HTML, CSS</p>
+                    <div class="project-links">
+                        <a href="https://github.com/arjunhazrab/Student_LMS" target="_blank" class="btn-sm"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>Personal Portfolio</h3>
+                    <p>A responsive portfolio website to showcase skills and projects. Built with a focus on clean UI and SEO.</p>
+                    <p class="tech-stack"><strong>Tech:</strong> HTML, CSS, JavaScript</p>
+                    <div class="project-links">
+                        <a href="#" class="btn-sm"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-info">
+                    <h3>AI powered Chatbot</h3>
+                    <p>A Chatbot created using google gemini and basic HTML, CSS, javascript</Html></p>
+                    <p class="tech-stack"><strong>Tech:</strong> Gemini , HTML, CSS, JavaScript</p>
+                    <div class="project-links">
+                        <a href="#" class="btn-sm"><i class="fab fa-github"></i> GitHub</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="education" class="container bg-alt reveal">
+        <h2 class="section-title">Education & Certifications</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>BCA (3rd Year)</h3>
+                <p>KLE S.Nijalingappa College</p>
+                <span class="date">Present</span>
+            </div>
+            <div class="timeline-item">
+                <h3>Certifications</h3>
+                <p>• Computer Hardware and Networking</p>
+                <p>• Software Testing</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="container reveal">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="contact-sub">Feel free to reach out for collaborations or job opportunities.</p>
+        
+        <div class="contact-container">
+            <div class="contact-details">
+                <p><i class="fas fa-envelope"></i> hazraarjun08@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +91 7338193850</p>
+                <p><i class="fab fa-github"></i> <a href="https://github.com/arjunhazrab/Student_LMS">github.com/arjunhazrab</a></p>
+            </div>
+
+            <form id="contact-form">
+                <input type="text" id="name" placeholder="Your Name" required>
+                <input type="email" id="email" placeholder="Your Email" required>
+                <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn primary-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Arjun Hazra B. Built with HTML, CSS, JS.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
